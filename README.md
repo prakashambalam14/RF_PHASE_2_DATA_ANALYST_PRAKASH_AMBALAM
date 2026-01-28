@@ -1,193 +1,126 @@
-# 📊 RF-PHASE-2 — Data Analyst Internship  
-### 👤 Prakash Ambalam  
-### 🏢 Rashid Foundation — Data Analytics Internship Program  
-### 📅 Phase: Week 1 (Basic Level Tasks)
+# 📊 Phase 2 – Data Analyst Internship Tasks
 
-This repository documents my learning and practical work completed during the first **9–10 days** of my internship under **Rashid Foundation** as part of the **Data Analytics Internship Program**.
-
-The goal of this phase was to build **strong fundamentals** across tools, concepts, and real-world analytics workflows before moving to intermediate-level projects.
+**Name:** Prakash  
+**Role:** Data Analyst Intern  
+**Repository:** `rf-phase2-data-analyst-prakash`
 
 ---
 
-## 🔍 Overview of Week 1
+## 🔹 Overview
 
-During this period, I focused on:
-
-- Understanding data-related job roles  
-- Learning core analytics tools  
-- Performing data cleaning using multiple platforms  
-- Building basic dashboards  
-- Studying important statistics and machine learning concepts  
-
-This phase mainly covered **beginner to basic-level tasks** to prepare for **intermediate project work starting from 26 January**.
+This repository contains my **Phase 2 – Intermediate Internship Tasks** for the **Data Analyst** role.  
+The work demonstrates my ability to handle real business data using **Python, SQL, and BI tools**, and to convert raw data into **meaningful business insights and dashboards**.
 
 ---
 
-## 🧑‍💼 Job Profiles & Industry Understanding
+## 🛠 Tools Used
 
-### Roles Studied
-
-- Data Analyst  
-- Business Analyst  
-- Data Scientist  
-- BI Developer  
-- Data Engineer  
-
-### Key Learnings
-
-- Skill requirements for each role  
-- Tools used in different job profiles  
-- How analytics is applied to real business problems  
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook
+- MySQL / SQLite
+- Power BI / Tableau
+- GitHub
 
 ---
 
-## 📈 Excel & Power Query
+## 📂 Dataset
 
-### ✅ Excel Concepts Covered
-
-- Data types  
-- Sorting and filtering  
-- Conditional formatting  
-- Basic formulas  
-
-### 🔧 Power Query (ETL & Data Cleaning)
-
-Used Power Query mainly for **ETL (Extract, Transform, Load)** before analysis and visualization.
-
-Tasks performed:
-
-- Removing duplicates  
-- Handling null values  
-- Changing data types  
-- Splitting and merging columns  
-- Cleaning inconsistent text values  
-- Preparing raw datasets for analysis  
+- **Dataset Type:** Sales Dataset  
+- **Source:** Kaggle 
+- **Link:** *(----)*
 
 ---
 
-## 🗄️ SQL — Database Concepts & Queries
+## ✅ Theoretical Tasks
 
-### ✅ Topics Covered
+📄 **File:** `/reports/Data_Analyst_Theory.pdf`
 
-- `SELECT` statements  
-- `WHERE` conditions  
-- `ORDER BY`  
-- `GROUP BY` with aggregate functions  
-- Basic `JOIN` operations  
-- Filtering and summarizing business data  
+### Topics Covered
 
-### 🎯 Goal
-
-To understand how real company data is stored and how analysts extract insights using SQL queries.
+- End-to-End Data Analysis Lifecycle (with Business Example)
+- Descriptive vs Diagnostic Analytics
+- Correlation vs Causation
+- Data Bias and Missing Data Handling Strategies
+- KPIs vs Metrics
+- Case Study: Why Dashboards Fail Even with Correct Data
 
 ---
 
-## 🐍 Python for Data Cleaning (Pandas)
+## ✅ Practical Task 1: Business Dataset Analysis (Python)
 
-### ✅ Libraries Used
+📁 **Notebook:** `/notebooks/sales_analysis.ipynb`
 
-- `pandas`
+### Steps Performed
 
-### ✅ Tasks Performed
+- Data Cleaning
+- Handling Missing Values
+- Removing Duplicate Records
+- Exploratory Data Analysis (EDA)
+- Business Question Analysis
 
-- Reading CSV files  
-- Handling missing values  
-- Converting data types  
-- Cleaning text columns  
-- Removing duplicates  
-- Exporting cleaned datasets  
+### Business Questions Answered
 
-### 🎯 Purpose
+1. Which product category has the highest sales?
+2. Which region generates maximum revenue?
+3. What is the monthly sales trend?
+4. How do different customer segments perform?
+5. Which products have the best profit margins?
 
-To perform **programmatic data cleaning** when datasets are large or complex.
-
----
-
-## 📊 Tableau Dashboards
-
-### ✅ HR Analytics Dashboard
-
-Metrics included:
-
-- Employee distribution  
-- Department-wise analysis  
-- Basic attrition insights  
-
-### ✅ Sales Dashboard
-
-Visualizations included:
-
-- Sales trends  
-- Product-wise performance  
-- Region-wise contribution  
-
-### 🎯 Goal
-
-To learn **data storytelling** and understand how dashboards support business decisions.
+📸 **Screenshots:** `/assets/`
 
 ---
 
-## 📐 Statistics & Experimentation Concepts
+## ✅ Practical Task 2: SQL Analysis
 
-### ✅ A/B Testing
+📁 **SQL File:** `/sql/analysis_queries.sql`
 
-- What A/B testing is  
-- Why companies use experiments  
-- Comparing two versions using data  
+### Operations Used
 
-### ✅ Hypothesis Testing
+- JOIN
+- GROUP BY
+- Subqueries
 
-- Null hypothesis (H0)  
-- Alternate hypothesis (H1)  
-- Statistical significance  
-- Data-driven decision making  
+### Business Insights Generated
 
-### 📌 Applications
+- Identification of top-performing products
+- Region-wise revenue contribution
+- Customer purchase frequency analysis
 
-- Marketing experiments  
-- Product optimization  
-- Business decision validation  
+📸 **Output Screenshots:** `/assets/sql_output.png`
 
 ---
 
-## 🧠 Brainstorming & Concept Learning
+## ✅ Practical Task 3: Dashboard Visualization
 
-### 🎯 Topic Selected: Data Leakage
+📊 **Tool Used:** Power BI / Tableau  
+📁 **Dashboard File:** `/dashboard/`
 
-Researched and discussed:
+### Dashboard Features
 
-- What data leakage is  
-- Why it is dangerous in ML models  
-- Types of leakage:
-  - Target leakage  
-  - Feature leakage  
-  - Train–test contamination  
-- How leakage causes fake high accuracy  
-- Methods to avoid leakage in real projects  
+- KPI Cards (Total Sales, Total Profit, Total Orders)
+- Filters (Region, Category, Date)
+- Sales and Profit Trend Analysis
 
----
-
-## 📝 Notes & Documentation
-
-- All learning concepts were summarized using **Napkin AI**  
-- Used for structured note-making and quick revision  
+📄 **Insight Report:** `/reports/Dashboard_Insights.pdf`  
+📸 **Dashboard Screenshots:**
+- `/assets/dashboard_page1.png`
+- `/assets/dashboard_page2.png`
 
 ---
 
-## 🚀 Next Phase
+## 📌 Business Insight Summary (Non-Technical)
 
-From the next phase onward, the focus will be on:
-
-- Intermediate-level projects  
-- End-to-end data analysis workflows  
-- Real-world business case dashboards  
-- Advanced DAX / SQL / Python usage  
+The dashboard shows that certain regions and product categories contribute significantly more to total revenue and profit.  
+Seasonal trends are visible in monthly sales, helping businesses plan inventory and marketing campaigns.  
+Customer segment analysis helps identify high-value customers and focus retention strategies accordingly.
 
 ---
 
-## 📌 Author
+## 🎯 What This Project Demonstrates
 
-**Prakash Ambalam**  
-Data Analytics Intern — Rashid Foundation  
+- Real-world data cleaning and preprocessing
+- SQL-based business analysis
+- Dashboard development for decision-making
+- Ability to explain insights in simple business language
 
-📎 *This repository represents my continuous learning and hands-on practice in data analytics.*
+This project is designed to be **portfolio-ready** and aligned with **entry-level Data Analyst job expectations**.
