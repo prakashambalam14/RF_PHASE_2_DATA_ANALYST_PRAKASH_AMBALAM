@@ -25,15 +25,15 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 
 ## 📂 Dataset
 
-- **Dataset Type:** Sales Dataset  
-- **Source:** Kaggle 
-- **Link:** *(----)*
+- 
+- 
+- 
 
 ---
 
 ## ✅ Theoretical Tasks
 
-📄 **File:** `/reports/Data_Analyst_Theory.pdf`
+📄 **File:** `/Thoery Files`
 
 ### Topics Covered
 
@@ -48,7 +48,7 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 
 ## ✅ Practical Task 1: Business Dataset Analysis (Python)
 
-📁 **Notebook:** `/notebooks/sales_analysis.ipynb`
+📁 **Notebook:** `PYTHON PRACTICAL`
 
 ### Steps Performed
 
@@ -66,13 +66,13 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 4. How do different customer segments perform?
 5. Which products have the best profit margins?
 
-📸 **Screenshots:** `/assets/`
+📸 **Screenshots:** `/Assets/PYIMG`
 
 ---
 
 ## ✅ Practical Task 2: SQL Analysis
 
-📁 **SQL File:** `/sql/analysis_queries.sql`
+📁 **SQL File:** `/SQL PRACTICAL`
 
 ### Operations Used
 
@@ -86,14 +86,14 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 - Region-wise revenue contribution
 - Customer purchase frequency analysis
 
-📸 **Output Screenshots:** `/assets/sql_output.png`
+📸 **Output Screenshots:** `/assets/sqlimg`
 
 ---
 
 ## ✅ Practical Task 3: Dashboard Visualization
 
 📊 **Tool Used:** Power BI / Tableau  
-📁 **Dashboard File:** `/dashboard/`
+📁 **Dashboard File:** `/DASHBOARD PRACTICAL/`
 
 ### Dashboard Features
 
@@ -101,10 +101,10 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 - Filters (Region, Category, Date)
 - Sales and Profit Trend Analysis
 
-📄 **Insight Report:** `/reports/Dashboard_Insights.pdf`  
+📄 **Insight Report:** `/`  
 📸 **Dashboard Screenshots:**
-- `/assets/dashboard_page1.png`
-- `/assets/dashboard_page2.png`
+- `/assets/dashboardimg`
+- `/assets/dashboardimg`
 
 ---
 
