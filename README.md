@@ -1,183 +1,193 @@
-# RF-PHASE-2_-DATA-ANALYST-_-PRAKASH-AMBALAM-
+# 📊 RF-PHASE-2 — Data Analyst Internship  
+### 👤 Prakash Ambalam  
+### 🏢 Rashid Foundation — Data Analytics Internship Program  
+### 📅 Phase: Week 1 (Basic Level Tasks)
 
-📊 Data Analytics Internship — Rashid Foundation
-📅 Week 1 Progress Report (Basic Level Tasks)
+This repository documents my learning and practical work completed during the first **9–10 days** of my internship under **Rashid Foundation** as part of the **Data Analytics Internship Program**.
 
-This repository documents my learning and practical work completed during the first 9–10 days of my internship under Rashid Foundation as part of the Data Analytics Internship Program.
+The goal of this phase was to build **strong fundamentals** across tools, concepts, and real-world analytics workflows before moving to intermediate-level projects.
 
-The focus of this phase was to build strong fundamentals across tools, concepts, and real-world analytics workflows.
+---
 
-🔍 Overview of Week 1
+## 🔍 Overview of Week 1
 
-During this period, I worked on understanding job roles in data analytics, learning core tools, practicing data cleaning, building dashboards, and studying important statistical and machine learning concepts.
+During this period, I focused on:
 
-This phase mainly covered basic to beginner-level tasks to prepare for intermediate-level project work starting from 26 January.
+- Understanding data-related job roles  
+- Learning core analytics tools  
+- Performing data cleaning using multiple platforms  
+- Building basic dashboards  
+- Studying important statistics and machine learning concepts  
 
-🧑‍💼 Job Profiles & Industry Understanding
+This phase mainly covered **beginner to basic-level tasks** to prepare for **intermediate project work starting from 26 January**.
 
-Understood different job titles in data domain:
+---
 
-Data Analyst
+## 🧑‍💼 Job Profiles & Industry Understanding
 
-Business Analyst
+### Roles Studied
 
-Data Scientist
+- Data Analyst  
+- Business Analyst  
+- Data Scientist  
+- BI Developer  
+- Data Engineer  
 
-BI Developer 
+### Key Learnings
 
-Data Engineer
+- Skill requirements for each role  
+- Tools used in different job profiles  
+- How analytics is applied to real business problems  
 
-Learned:
+---
 
-What skills are required for each role
+## 📈 Excel & Power Query
 
-How tools differ based on job profiles
+### ✅ Excel Concepts Covered
 
-How analytics is used in real business problems
+- Data types  
+- Sorting and filtering  
+- Conditional formatting  
+- Basic formulas  
 
-📈 Excel & Power Query
-✅ Concepts Covered
+### 🔧 Power Query (ETL & Data Cleaning)
 
-Data types
+Used Power Query mainly for **ETL (Extract, Transform, Load)** before analysis and visualization.
 
-Sorting and filtering
+Tasks performed:
 
-Conditional formatting
+- Removing duplicates  
+- Handling null values  
+- Changing data types  
+- Splitting and merging columns  
+- Cleaning inconsistent text values  
+- Preparing raw datasets for analysis  
 
-Basic formulas
+---
 
-🔧 Power Query (Data Cleaning & Transformation)
+## 🗄️ SQL — Database Concepts & Queries
 
-Removing duplicates
+### ✅ Topics Covered
 
-Handling null values
+- `SELECT` statements  
+- `WHERE` conditions  
+- `ORDER BY`  
+- `GROUP BY` with aggregate functions  
+- Basic `JOIN` operations  
+- Filtering and summarizing business data  
 
-Changing data types
+### 🎯 Goal
 
-Splitting and merging columns
+To understand how real company data is stored and how analysts extract insights using SQL queries.
 
-Cleaning inconsistent text data
+---
 
-Preparing raw datasets for analysis
+## 🐍 Python for Data Cleaning (Pandas)
 
-Used Power Query mainly for ETL (Extract, Transform, Load) process before visualization and analysis.
+### ✅ Libraries Used
 
-🗄️ SQL (Database Concepts & Queries)
-✅ Topics Covered
+- `pandas`
 
-SELECT statements
+### ✅ Tasks Performed
 
-WHERE conditions
+- Reading CSV files  
+- Handling missing values  
+- Converting data types  
+- Cleaning text columns  
+- Removing duplicates  
+- Exporting cleaned datasets  
 
-ORDER BY
+### 🎯 Purpose
 
-GROUP BY with aggregate functions
+To perform **programmatic data cleaning** when datasets are large or complex.
 
-JOINS (basic level)
+---
 
-Filtering and summarizing business data
+## 📊 Tableau Dashboards
 
-Goal:
-To understand how real company data is stored and how analysts extract required insights using queries.
-
-🐍 Python for Data Cleaning (Pandas)
-✅ Libraries Used
-
-pandas
-
-✅ Tasks Performed
-
-Reading CSV files
-
-Handling missing values
-
-Converting data types
-
-Cleaning text columns
-
-Removing duplicates
-
-Exporting cleaned datasets
-
-Purpose:
-To perform programmatic data cleaning when datasets are large or complex.
-
-📊 Tableau Dashboards
-✅ HR Dashboard
-
-Created an HR analytics dashboard
+### ✅ HR Analytics Dashboard
 
 Metrics included:
 
-Employee distribution
+- Employee distribution  
+- Department-wise analysis  
+- Basic attrition insights  
 
-Department-wise analysis
+### ✅ Sales Dashboard
 
-Attrition insights (basic level)
+Visualizations included:
 
-✅ Sales Dashboard
+- Sales trends  
+- Product-wise performance  
+- Region-wise contribution  
 
-Built another dashboard based on sales data
+### 🎯 Goal
 
-Visualized:
+To learn **data storytelling** and understand how dashboards support business decisions.
 
-Sales trends
+---
 
-Product-wise performance
+## 📐 Statistics & Experimentation Concepts
 
-Region-wise contribution
+### ✅ A/B Testing
 
-Goal:
-To learn data storytelling using visuals and understand how dashboards are used for business decisions.
+- What A/B testing is  
+- Why companies use experiments  
+- Comparing two versions using data  
 
-📐 Statistics & Experimentation Concepts
-✅ A/B Testing (Theory + Practical)
+### ✅ Hypothesis Testing
 
-What is A/B testing
+- Null hypothesis (H0)  
+- Alternate hypothesis (H1)  
+- Statistical significance  
+- Data-driven decision making  
 
-Why companies use experiments
+### 📌 Applications
 
-How to compare two versions using data
+- Marketing experiments  
+- Product optimization  
+- Business decision validation  
 
-✅ Hypothesis Testing
+---
 
-Null hypothesis (H0)
+## 🧠 Brainstorming & Concept Learning
 
-Alternate hypothesis (H1)
+### 🎯 Topic Selected: Data Leakage
 
-Concept of statistical significance
+Researched and discussed:
 
-Why decisions should be based on data, not assumptions
+- What data leakage is  
+- Why it is dangerous in ML models  
+- Types of leakage:
+  - Target leakage  
+  - Feature leakage  
+  - Train–test contamination  
+- How leakage causes fake high accuracy  
+- Methods to avoid leakage in real projects  
 
-These concepts are important for:
+---
 
-Marketing experiments
+## 📝 Notes & Documentation
 
-Product improvements
+- All learning concepts were summarized using **Napkin AI**  
+- Used for structured note-making and quick revision  
 
-Business decision validation
+---
 
-🧠 Brainstorming & Concept Learning
-🎯 Topic Chosen: Data Leakage
+## 🚀 Next Phase
 
-Spent 3–4 days in brainstorming sessions and research on:
+From the next phase onward, the focus will be on:
 
-What is data leakage
+- Intermediate-level projects  
+- End-to-end data analysis workflows  
+- Real-world business case dashboards  
+- Advanced DAX / SQL / Python usage  
 
-Why it is dangerous in machine learning
+---
 
-Types of leakage:
+## 📌 Author
 
-Target leakage
+**Prakash Ambalam**  
+Data Analytics Intern — Rashid Foundation  
 
-Feature leakage
-
-Train–test contamination
-
-How leakage gives fake high accuracy
-
-How to avoid leakage in real projects
-
-📝 Notes Preparation
-
-All concepts were summarized using Napkin AI for structured note-making and quick revision.
+📎 *This repository represents my continuous learning and hands-on practice in data analytics.*
