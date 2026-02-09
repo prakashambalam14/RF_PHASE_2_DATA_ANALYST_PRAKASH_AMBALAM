@@ -46,7 +46,11 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 
 ---
 
-## ✅ Practical Task 1: Business Dataset Analysis (Python)
+## ✅ Practical Task 1: Business Dataset Analysis Report
+
+Dataset: Video Game Sales Dataset
+Role: Data Analyst Intern
+Tools Used: Google Colab
 
 📁 **Notebook:** `PYTHON PRACTICAL`
 
@@ -55,20 +59,38 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 - Data Cleaning
 - Handling Missing Values
 - Removing Duplicate Records
-- Exploratory Data Analysis (EDA)
 - Business Question Analysis
+
+🧹 Data Cleaning Summary
+
+Several preprocessing steps were applied before analysis:
+
+Duplicate records were checked and removed
+Sales columns missing values were filled with 0 (interpreted as no recorded sales)
+Missing developer names were filled with “Unknown”
+Critic scores were imputed using the median score to avoid data loss
+Date columns were converted to datetime format, and missing dates were preserved as null rather than artificially filled
+These steps ensured data consistency while preserving maximum usable records.
 
 ### Business Questions Answered
 
-1. Which product category has the highest sales?
-2. Which region generates maximum revenue?
-3. What is the monthly sales trend?
-4. How do different customer segments perform?
-5. Which products have the best profit margins?
+1️⃣ Which video games have generated the highest total sales across all consoles?
+
+2️⃣ Which game genres contribute the most to total global sales?
+
+3️⃣ Which gaming consoles have produced the highest overall sales revenue?
+
+4️⃣ Which publishers dominate the market in terms of total game sales?
+
+6️⃣ How does genre performance vary across different regions (NA, JP, PAL, Other)?
+
+
+✅ Business Conclusion
+
+The analysis shows that commercial success in the video game industry is primarily driven by franchise strength, genre category, publisher scale, and multi-platform availability rather than critic scores alone. Companies should prioritize cross-platform releases and high-performing genres while adapting strategies by region.
 
 📸 **Screenshots:** `/Assets/PYIMG`
-
----
+Img and Code Files Are In Asset Folder Go Check It !
 
 ## ✅ Practical Task 2: SQL Analysis
 
