@@ -15,21 +15,14 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 
 ## 🛠 Tools Used
 
-- Python (Pandas, Matplotlib)
-- Jupyter Notebook
+- Python (Pandas, Matplotlib , OS)
+- VC CODE /  GOOGLE COLAB / IDLE
 - MySQL / SQLite
 - Power BI / Tableau
 - GitHub
 
 ---
 
-## 📂 Dataset
-
-- 
-- 
-- 
-
----
 
 ## ✅ Theoretical Tasks
 
