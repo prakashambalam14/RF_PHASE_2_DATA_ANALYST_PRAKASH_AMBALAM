@@ -28,7 +28,7 @@ The work demonstrates my ability to handle real business data using **Python, SQ
 
 📄 **File:** `/Thoery Files`
 
-### Topics Covered
+### Topics To Covered
 
 - End-to-End Data Analysis Lifecycle (with Business Example)
 - Descriptive vs Diagnostic Analytics
@@ -199,35 +199,4 @@ Img and Code Files Are In Asset Folder Go Check It !
 
 ## ✅ Practical Task 3: Dashboard Visualization
 
-📊 **Tool Used:** Power BI / Tableau  
-📁 **Dashboard File:** `/DASHBOARD PRACTICAL/`
-
-### Dashboard Features
-
-- KPI Cards (Total Sales, Total Profit, Total Orders)
-- Filters (Region, Category, Date)
-- Sales and Profit Trend Analysis
-
-📄 **Insight Report:** `/`  
-📸 **Dashboard Screenshots:**
-- `/assets/dashboardimg`
-- `/assets/dashboardimg`
-
----
-
-## 📌 Business Insight Summary (Non-Technical)
-
-The dashboard shows that certain regions and product categories contribute significantly more to total revenue and profit.  
-Seasonal trends are visible in monthly sales, helping businesses plan inventory and marketing campaigns.  
-Customer segment analysis helps identify high-value customers and focus retention strategies accordingly.
-
----
-
-## 🎯 What This Project Demonstrates
-
-- Real-world data cleaning and preprocessing
-- SQL-based business analysis
-- Dashboard development for decision-making
-- Ability to explain insights in simple business language
-
-This project is designed to be **portfolio-ready** and aligned with **entry-level Data Analyst job expectations**.
+Remaining --
