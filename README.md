@@ -92,23 +92,115 @@ The analysis shows that commercial success in the video game industry is primari
 📸 **Screenshots:** `/Assets/PYIMG`
 Img and Code Files Are In Asset Folder Go Check It !
 
-## ✅ Practical Task 2: SQL Analysis
+#  College Database SQL Project — Task 2 (Phase 2 Internship)
 
-📁 **SQL File:** `/SQL PRACTICAL`
+##  Project Overview
 
-### Operations Used
+This project demonstrates relational database design and SQL analysis using a College Management dataset. The objective was to design normalized tables, establish foreign key relationships, and perform business-oriented SQL queries using JOINs, GROUP BY, and subqueries.
 
-- JOIN
-- GROUP BY
-- Subqueries
+The database models a college environment including departments, students, courses, and enrollments. Queries were written to extract meaningful academic and administrative insights rather than only raw outputs.
 
-### Business Insights Generated
+---
 
-- Identification of top-performing products
-- Region-wise revenue contribution
-- Customer purchase frequency analysis
+##  Database Schema Design
 
-📸 **Output Screenshots:** `/assets/sqlimg`
+Four relational tables were created with proper primary and foreign key constraints:
+
+### ✅ Tables Created
+
+* **departments** — stores department details
+* **students** — stores student information (linked to departments)
+* **courses** — stores course details (linked to departments)
+* **enrollments** — bridge table connecting students and courses with marks
+
+### 🔗 Relationships
+
+* One department → many students
+* One department → many courses
+* Many students ↔ many courses (via enrollments table)
+
+Foreign keys were used to maintain referential integrity across tables.
+
+---
+
+
+## 🔍 SQL Query Categories Performed
+
+### ✅ JOIN Queries
+
+* Student with their department names
+* Student + enrolled courses + marks
+* Courses mapped to departments
+
+**Purpose:** Combine related data across multiple tables to produce meaningful views.
+
+---
+
+### ✅ GROUP BY Queries
+
+* Student count per department
+* Average marks per course
+* Average marks per department
+
+**Purpose:** Aggregated performance and distribution analysis.
+
+---
+
+### ✅ Filter Queries
+
+* Students scoring above a threshold
+* Courses with higher credit load
+
+**Purpose:** Identify high performers and academically heavy subjects.
+
+---
+
+### ✅ Subquery Used
+
+* Students scoring above overall average marks
+
+**Purpose:** Demonstrate nested query logic for comparative performance filtering.
+
+---
+
+## 💼 Business Insights Enabled by Queries
+
+* Department-wise student distribution
+* Course-wise academic performance
+* Identification of high-performing students
+* Department performance comparison
+* Course difficulty trends using average marks
+* Enrollment-based course popularity
+
+---
+
+## 🛠 Tools Used
+
+* MySQL Workbench (SQL execution)
+* Relational schema design
+* Foreign key constraints
+* Aggregate and analytical SQL queries
+
+---
+
+
+## ✅ Task Requirements Covered
+
+* ✔ Relational schema design
+* ✔ Foreign keys implemented
+* ✔ Multi-table JOIN queries
+* ✔ GROUP BY aggregations
+* ✔ Subquery usage
+* ✔ Business-style interpretations
+
+---
+
+## 🎯 Outcome
+
+This task demonstrates practical SQL skills including schema modeling, relational joins, aggregation queries, and analytical filtering. The project reflects real-world database usage patterns and supports business-style academic insights.
+
+📸 **Output Screenshots:** `/assets/sqlimg` 
+Img and Code Files Are In Asset Folder Go Check It !
 
 ---
 
