@@ -197,6 +197,90 @@ Img and Code Files Are In Asset Folder Go Check It !
 
 ---
 
-## ✅ Practical Task 3: Dashboard Visualization
+### 📊 Task 3 — Visualization Dashboard (Video Game Sales Analysis)
 
-Remaining --
+## 📌 Overview
+
+This task focuses on building an interactive business dashboard using Power BI based on a cleaned video game sales dataset. The objective was to transform processed data into decision-friendly visuals including KPI cards, trend analysis, category comparisons, and insight-driven charts. The dashboard is designed for business users to quickly understand performance patterns across genres, consoles, publishers, regions, and time.
+
+---
+
+## 🗂 Dataset Used
+
+* Source: Video Game Sales dataset (cleaned in Task 1 using Python)
+* Records include: title, genre, console, publisher, critic score, regional sales, total sales, and release date
+* Preprocessing performed earlier:
+
+  * Missing values handled
+  * Sales fields standardized
+  * Dates converted
+  * Text normalized
+  * Duplicates removed
+
+Cleaned CSV was imported into Power BI for visualization.
+
+---
+
+## 🛠 Tool Used
+
+* Microsoft Power BI Desktop
+* DAX measures for KPI calculations
+* Interactive slicers and filters
+* Multi-page dashboard layout
+
+---
+
+## 📈 Dashboard Structure
+
+The dashboard is organized into two main pages for clarity and business flow.
+
+---
+
+## ✅ Page 1 — Sales Overview
+
+**Purpose:** High-level performance snapshot for management.
+
+### KPI Cards
+
+* Total Global Sales
+* Total Games
+* Average Critic Score
+* Total Publishers
+* Total Consoles
+
+### Visuals
+
+* Sales Trend Over Time (Line Chart)
+* Sales by Console (Bar Chart)
+* Sales by Genre (Donut/Pie Chart)
+* Top Publishers by Sales (Bar Chart)
+
+### Filters (Slicers)
+
+* Genre
+* Console
+* Publisher
+* Release Year
+
+### Business Value
+
+This page provides a quick overview of overall market performance, platform contribution, and top revenue drivers.
+
+---
+
+## ✅ Page 2 — Insight & Comparative Analysis
+
+**Purpose:** Deeper analytical view focusing on region, quality, and efficiency.
+
+### KPI Cards
+
+* Average Sales per Game
+* NA Sales Share %
+* High Rated Games Count
+
+### Visuals
+
+* Regional Market Share by Genre (100% Stacked Column)
+* Critic Score vs Total Sales (Scatter Plot)
+* Average Sales per Game by Genre (Bar Chart)
+* Genre Sales Trend Over Time (Line Chart with Genre legend)
